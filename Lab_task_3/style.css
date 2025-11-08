@@ -1,0 +1,29 @@
+  * { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 24px;
+      background: #f5f6f8;
+      color: #1f2937;
+    }
+
+    form {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px 18px;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin: 18px 0 10px;
+      font-size: 20px;
+      color: #fe0b0b;
+    }
+
+    p { margin: 6px 0 12px; }
+    p small { color: #6b7280; }
+
