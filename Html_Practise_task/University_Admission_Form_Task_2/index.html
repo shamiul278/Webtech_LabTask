@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+
+    <h2>University Admission Form</h2>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required maxlength="40"><br><br>
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required maxlength="40"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+        </fieldset>
+
+        <br>
+ 
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="highschool">High School Name:</label><br>
+            <input type="text" id="highschool" name="highschool" maxlength="60" required><br><br>
+
+            <label for="percentage">Last Exam Percentage:</label><br>
+            <input type="text" id="percentage" name="percentage" maxlength="5" required><br><br>
+
+            <label for="department">Select Department:</label><br>
+            <select id="department" name="department" required>
+                <option value="">-- Select Department --</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Business Administration">Business Administration</option>
+                <option value="Biotechnology">Biotechnology</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+            </select><br><br>
+
+            <label>Interest:</label><br>
+            <input type="checkbox" id="ai" name="interests" value="AI">
+            <label for="ai">Artificial Intelligence</label><br>
+
+            <input type="checkbox" id="sports" name="interests" value="Sports">
+            <label for="sports">Sports</label><br>
+
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label for="coding">Coding</label><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Document Upload</legend>
+
+            <label for="transcript">Upload Transcript:</label><br>
+            <input type="file" id="transcript" name="transcript" required><br><br>
+
+            <label for="photo">Upload Passport-Sized Photo:</label><br>
+            <input type="file" id="photo" name="photo" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
