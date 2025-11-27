@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-widget {
+    position: fixed;
+    bottom: 20px;           
+    right: 20px;           
+    background-color: #007bff; 
+    color: white;         
+    padding: 15px 20px;   
+    border-radius: 8px;     
+    text-align: center;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    z-index: 9999;         
+    font-size: 14px;       
+}
+
+.contact-widget:hover {
+    background-color: #0056b3; 
+}
+
+
+.contact-widget a {
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;     
+}
