@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Steven Wu">
+    <meta name="description" content="Testing overflow behavior for a text widget.">
+    <title>Overflow Handling Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="overflow-box visible">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <p>Aliquam erat volutpat. Integer nec odio. Praesent libero...</p>
+        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget...</p>
+    </div>
+
+
+    
+
+    <div class="overflow-box hidden">
+        <p>Content that overflows and is hidden...</p>
+    </div>
+    <div class="overflow-box scroll">
+        <p>Content that overflows and can be scrolled...</p>
+    </div>
+    <div class="overflow-box auto">
+        <p>Content that auto-handles overflow...</p>
+    </div>
+
+</body>
+</html>
